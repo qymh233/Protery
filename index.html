@@ -1,0 +1,3162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="https://www.layuicdn.com/layui/css/layui.css" />
+    <title>格律检测</title>
+</head>
+
+<body>
+    <div class="layui-tab">
+        <ul class="layui-tab-title">
+            <li class="layui-this">五绝</li>
+            <li>七绝</li>
+            <li>五律</li>
+            <li>七律</li>
+            <li>使用说明</li>
+        </ul>
+        <div class="layui-tab-content">
+            <div class="layui-tab-item layui-show">
+                <div class="layui-input-block">
+                    <input type="radio" name="sex" id="sex1" value="0" title="平起首句押韵" checked>平起首句押韵
+                    <input type="radio" name="sex" id="sex2" value="1" title="平起">平起
+                    <input type="radio" name="sex" id="sex3" value="2" title="仄起首句押韵">仄起首句押韵
+                    <input type="radio" name="sex" id="sex4" value="3" title="仄起">仄起
+                </div>
+                <div class="layui-input-block">
+                    <div class="layui-inline">
+                        <select name="char11" id="char11" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="char12" id="char12" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="char13" id="char13" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="char14" id="char14" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="char15" id="char15" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>，
+                    </div>
+                </div>
+                <div class="layui-input-block">
+                    <div class="layui-inline">
+                        <select name="char21" id="char21" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="char22" id="char22" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="char23" id="char23" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="char24" id="char24" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="char25" id="char25" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>。
+                    </div>
+                </div>
+                <div class="layui-input-block">
+                    <div class="layui-inline">
+                        <select name="char31" id="char31" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="char32" id="char32" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="char33" id="char33" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="char34" id="char34" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="char35" id="char35" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>，
+                    </div>
+                </div>
+                <div class="layui-input-block">
+                    <div class="layui-inline">
+                        <select name="char41" id="char41" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="char42" id="char42" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="char43" id="char43" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="char44" id="char44" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="char45" id="char45" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>。
+                    </div>
+                </div>
+
+                <div class="layui-input-block">
+                    <div class="layui-inline">
+                        <button type="submit" formaction="" class="layui-btn layui-btn-normal"
+                            onclick='return checkwj()'>检测</button>
+                        <button type="submit" formaction="" class="layui-btn"><a
+                                href="javascript:location.reload();">点击重新载入页面</a></button>
+                    </div>
+                </div>
+                <div class="layui-input-block">
+                    <textarea placeholder="结果" class="layui-textarea" id='textvalue' name="desc" value=""
+                        style="width:200px; height:200px;"></textarea>
+                </div>
+            </div>
+            <!--七绝-->
+            <div class="layui-tab-item">
+                <div class="layui-input-block">
+                    <input type="radio" name="sexqj" id="sex1" value="0" title="平起首句押韵" checked>平起首句押韵
+                    <input type="radio" name="sexqj" id="sex2" value="1" title="平起">平起
+                    <input type="radio" name="sexqj" id="sex3" value="2" title="仄起首句押韵">仄起首句押韵
+                    <input type="radio" name="sexqj" id="sex4" value="3" title="仄起">仄起
+                </div>
+                <div class="layui-input-block">
+                    <div class="layui-inline">
+                        <select name="charq11" id="charq11" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charq12" id="charq12" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charq13" id="charq13" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charq14" id="charq14" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charq15" id="charq15" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charq16" id="charq16" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charq17" id="charq17" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>，
+                    </div>
+                </div>
+                <div class="layui-input-block">
+                    <div class="layui-inline">
+                        <select name="charq21" id="charq21" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charq22" id="charq22" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charq23" id="charq23" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charq24" id="charq24" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charq25" id="charq25" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charq26" id="charq26" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charq27" id="charq27" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>。
+                    </div>
+                </div>
+                <div class="layui-input-block">
+                    <div class="layui-inline">
+                        <select name="charq31" id="charq31" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charq32" id="charq32" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charq33" id="charq33" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charq34" id="charq34" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charq35" id="charq35" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charq36" id="charq36" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charq37" id="charq37" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>，
+                    </div>
+                </div>
+                <div class="layui-input-block">
+                    <div class="layui-inline">
+                        <select name="charq41" id="charq41" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charq42" id="charq42" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charq43" id="charq43" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charq44" id="charq44" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charq45" id="charq45" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charq46" id="charq46" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charq47" id="charq47" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>。
+                    </div>
+                </div>
+
+                <div class="layui-input-block">
+                    <div class="layui-inline">
+                        <button type="submit" formaction="" class="layui-btn layui-btn-normal"
+                            onclick='return checkqj()'>检测</button>
+                        <button type="submit" formaction="" class="layui-btn"><a
+                                href="javascript:location.reload();">点击重新载入页面</a></button>
+                    </div>
+                </div>
+                <div class="layui-input-block">
+                    <textarea placeholder="结果" class="layui-textarea" id='textvalueqj' name="desc" value=""
+                        style="width:200px; height:200px;"></textarea>
+                </div>
+            </div>
+            <!--五律-->
+            <div class="layui-tab-item">
+                <div class="layui-input-block">
+                    <input type="radio" name="sexwl" id="sex1" value="0" title="平起首句押韵" checked>平起首句押韵
+                    <input type="radio" name="sexwl" id="sex2" value="1" title="平起">平起
+                    <input type="radio" name="sexwl" id="sex3" value="2" title="仄起首句押韵">仄起首句押韵
+                    <input type="radio" name="sexwl" id="sex4" value="3" title="仄起">仄起
+                </div>
+                <div class="layui-input-block">
+                    <div class="layui-inline">
+                        <select name="charw11" id="charw11" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charw12" id="charw12" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charw13" id="charw13" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charw14" id="charw14" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charw15" id="charw15" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>，
+                    </div>
+                </div>
+                <div class="layui-input-block">
+                    <div class="layui-inline">
+                        <select name="charw21" id="charw21" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charw22" id="charw22" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charw23" id="charw23" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charw24" id="charw24" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charw25" id="charw25" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>。
+                    </div>
+                </div>
+                <div class="layui-input-block">
+                    <div class="layui-inline">
+                        <select name="charw31" id="charw31" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charw32" id="charw32" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charw33" id="charw33" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charw34" id="charw34" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charw35" id="charw35" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>，
+                    </div>
+                </div>
+                <div class="layui-input-block">
+                    <div class="layui-inline">
+                        <select name="charw41" id="charw41" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charw42" id="charw42" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charw43" id="charw43" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charw44" id="charw44" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charw45" id="charw45" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>。
+                    </div>
+                </div>
+                <div class="layui-input-block">
+                    <div class="layui-inline">
+                        <select name="charw51" id="charw51" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charw52" id="charw52" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charw53" id="charw53" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charw54" id="charw54" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charw55" id="charw55" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>,
+                    </div>
+                </div>
+                <div class="layui-input-block">
+                    <div class="layui-inline">
+                        <select name="charw61" id="charw61" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charw62" id="charw62" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charw63" id="charw63" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charw64" id="charw64" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charw65" id="charw65" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>。
+                    </div>
+                </div>
+                <div class="layui-input-block">
+                    <div class="layui-inline">
+                        <select name="charw71" id="charw71" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charw72" id="charw72" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charw73" id="charw73" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charw74" id="charw74" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charw75" id="charw75" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>,
+                    </div>
+                </div>
+                <div class="layui-input-block">
+                    <div class="layui-inline">
+                        <select name="charw81" id="charw81" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charw82" id="charw82" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charw83" id="charw83" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charw84" id="charw84" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charw85" id="charw85" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>。
+                    </div>
+                </div>
+
+                <div class="layui-input-block">
+                    <div class="layui-inline">
+                        <button type="submit" formaction="" class="layui-btn layui-btn-normal"
+                            onclick='return checkwl()'>检测</button>
+                        <button type="submit" formaction="" class="layui-btn"><a
+                                href="javascript:location.reload();">点击重新载入页面</a></button>
+                    </div>
+                </div>
+                <div class="layui-input-block">
+                    <textarea placeholder="结果" class="layui-textarea" id='textvaluewl' name="desc" value=""
+                        style="width:200px; height:200px;"></textarea>
+                </div>
+            </div>
+            <!--七律-->
+            <div class="layui-tab-item">
+                <div class="layui-input-block">
+                    <input type="radio" name="sexql" id="sex1" value="0" title="平起首句押韵" checked>平起首句押韵
+                    <input type="radio" name="sexql" id="sex2" value="1" title="平起">平起
+                    <input type="radio" name="sexql" id="sex3" value="2" title="仄起首句押韵">仄起首句押韵
+                    <input type="radio" name="sexql" id="sex4" value="3" title="仄起">仄起
+                </div>
+                <div class="layui-input-block">
+                    <div class="layui-inline">
+                        <select name="charql11" id="charql11" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charql12" id="charql12" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charql13" id="charql13" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charql14" id="charql14" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charql15" id="charql15" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charql16" id="charql16" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charql17" id="charql17" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>，
+                    </div>
+                </div>
+                <div class="layui-input-block">
+                    <div class="layui-inline">
+                        <select name="charql21" id="charql21" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charql22" id="charql22" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charql23" id="charql23" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charql24" id="charql24" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charql25" id="charql25" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charql26" id="charql26" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charql27" id="charql27" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>。
+                    </div>
+                </div>
+                <div class="layui-input-block">
+                    <div class="layui-inline">
+                        <select name="charql31" id="charql31" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charql32" id="charql32" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charql33" id="charql33" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charql34" id="charql34" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charql35" id="charql35" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charql36" id="charql36" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charql37" id="charql37" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>，
+                    </div>
+                </div>
+                <div class="layui-input-block">
+                    <div class="layui-inline">
+                        <select name="charql41" id="charql41" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charql42" id="charql42" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charql43" id="charql43" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charql44" id="charql44" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charql45" id="charql45" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charql46" id="charql46" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charql47" id="charql47" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>。
+                    </div>
+                </div>
+                <div class="layui-input-block">
+                    <div class="layui-inline">
+                        <select name="charql51" id="charql51" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charql52" id="charql52" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charql53" id="charql53" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charql54" id="charql54" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charql55" id="charql55" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charql56" id="charql56" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charql57" id="charql57" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>,
+                    </div>
+                </div>
+                <div class="layui-input-block">
+                    <div class="layui-inline">
+                        <select name="charql61" id="charql61" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charql62" id="charql62" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charql63" id="charql63" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charql64" id="charql64" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charql65" id="charql65" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charql66" id="charql66" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charql67" id="charql67" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>。
+                    </div>
+                </div>
+                <div class="layui-input-block">
+                    <div class="layui-inline">
+                        <select name="charql71" id="charql71" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charql72" id="charql72" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charql73" id="charql73" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charql74" id="charql74" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charql75" id="charql75" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charql76" id="charql76" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charql77" id="charql77" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>,
+                    </div>
+                </div>
+                <div class="layui-input-block">
+                    <div class="layui-inline">
+                        <select name="charql81" id="charql81" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charql82" id="charql82" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charql83" id="charql83" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charql84" id="charql84" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charql85" id="charql85" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charql86" id="charql86" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <select name="charql87" id="charql87" lay-verify="required">
+                            <option value="0">空</option>
+                            <option value="1">平</option>
+                            <option value="2">仄</option>
+                        </select>。
+                    </div>
+                </div>
+
+                <div class="layui-input-block">
+                    <div class="layui-inline">
+                        <button type="submit" formaction="" class="layui-btn layui-btn-normal"
+                            onclick='return checkql()'>检测</button>
+                        <button type="submit" formaction="" class="layui-btn"><a
+                                href="javascript:location.reload();">点击重新载入页面</a></button>
+                    </div>
+                </div>
+                <div class="layui-input-block">
+                    <textarea placeholder="结果" class="layui-textarea" id='textvalueql' name="desc" value=""
+                        style="width:200px; height:200px;"></textarea>
+                </div>
+            </div>
+            <div class="layui-tab-item">
+                <h1>目前暂不支持拗救的检测</h1>
+                <h1>每次检测完成以后请点击重新加载</h1>
+                <h1>如遇到问题请于视频留言 bilibili搜索：秦月墨辉</h1>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://www.layuicdn.com/layui/layui.js"></script>
+    <!--您的Layui代码start-->
+    <!--五绝-->
+    <script>
+        function checkwj() {
+            //获取选择的格律
+            var temp = document.getElementsByName('sex');
+            var choose = 0;
+            for (i = 0; i < temp.length; i++) {
+                if (temp[i].checked) {
+                    //  window.alert(temp[i].value);
+                    choose = temp[i].value;
+                    //window.alert(choose);
+                }
+            }
+            //获取用户填入
+            var char11 = document.getElementById('char11').value;
+            var char12 = document.getElementById('char12').value;
+            var char13 = document.getElementById('char13').value;
+            var char14 = document.getElementById('char14').value;
+            var char15 = document.getElementById('char15').value;
+            var char21 = document.getElementById('char21').value;
+            var char22 = document.getElementById('char22').value;
+            var char23 = document.getElementById('char23').value;
+            var char24 = document.getElementById('char24').value;
+            var char25 = document.getElementById('char25').value;
+            var char31 = document.getElementById('char31').value;
+            var char32 = document.getElementById('char32').value;
+            var char33 = document.getElementById('char33').value;
+            var char34 = document.getElementById('char34').value;
+            var char35 = document.getElementById('char35').value;
+            var char41 = document.getElementById('char41').value;
+            var char42 = document.getElementById('char42').value;
+            var char43 = document.getElementById('char43').value;
+            var char44 = document.getElementById('char44').value;
+            var char45 = document.getElementById('char45').value;
+            //分别处理
+            if (choose == 0) {//平起首句押韵
+                if (char11 != 1) {
+                    document.getElementById('char11').style.color = 'red';
+                }
+                if (char12 != 1) {
+                    document.getElementById('char12').style.color = 'red';
+                }
+                if (char13 != 2) {
+                    document.getElementById('char13').style.color = 'red';
+                }
+                if (char14 != 2) {
+                    document.getElementById('char14').style.color = 'red';
+                }
+                if (char15 != 1) {
+                    document.getElementById('char15').style.color = 'red';
+                }
+                // if (char21 != 1) {
+                //     document.getElementById('char21').style.color = 'red';
+                // }
+                if (char22 != 2) {
+                    document.getElementById('char22').style.color = 'red';
+                }
+                if (char23 != 2) {
+                    document.getElementById('char23').style.color = 'red';
+                }
+                if (char24 != 1) {
+                    document.getElementById('char24').style.color = 'red';
+                }
+                if (char25 != 1) {
+                    document.getElementById('char25').style.color = 'red';
+                }
+                // if (char31 != 1) {
+                //     document.getElementById('char31').style.color = 'red';
+                // }
+                if (char32 != 2) {
+                    document.getElementById('char32').style.color = 'red';
+                }
+                if (char33 != 1) {
+                    document.getElementById('char33').style.color = 'red';
+                }
+                if (char34 != 1) {
+                    document.getElementById('char34').style.color = 'red';
+                }
+                if (char35 != 2) {
+                    document.getElementById('char35').style.color = 'red';
+                }
+                if (char41 != 1) {
+                    document.getElementById('char41').style.color = 'red';
+                }
+                if (char42 != 1) {
+                    document.getElementById('char42').style.color = 'red';
+                }
+                if (char43 != 2) {
+                    document.getElementById('char43').style.color = 'red';
+                }
+                if (char44 != 2) {
+                    document.getElementById('char44').style.color = 'red';
+                }
+                if (char45 != 1) {
+                    document.getElementById('char45').style.color = 'red';
+                }
+                document.getElementById('textvalue').value = '平平仄仄平，\n空仄仄平平。\n空仄平平仄，\n平平仄仄平。';
+            } else if (choose == 1) {//平起
+                // if (char11 != 1) {
+                //     document.getElementById('char11').style.color = 'red';
+                // }
+                if (char12 != 1) {
+                    document.getElementById('char12').style.color = 'red';
+                }
+                if (char13 != 1) {
+                    document.getElementById('char13').style.color = 'red';
+                }
+                if (char14 != 2) {
+                    document.getElementById('char14').style.color = 'red';
+                }
+                if (char15 != 2) {
+                    document.getElementById('char15').style.color = 'red';
+                }
+                // if (char21 != 1) {
+                //     document.getElementById('char21').style.color = 'red';
+                // }
+                if (char22 != 2) {
+                    document.getElementById('char22').style.color = 'red';
+                }
+                if (char23 != 2) {
+                    document.getElementById('char23').style.color = 'red';
+                }
+                if (char24 != 1) {
+                    document.getElementById('char24').style.color = 'red';
+                }
+                if (char25 != 1) {
+                    document.getElementById('char25').style.color = 'red';
+                }
+                // if (char31 != 1) {
+                //     document.getElementById('char31').style.color = 'red';
+                // }
+                if (char32 != 2) {
+                    document.getElementById('char32').style.color = 'red';
+                }
+                if (char33 != 1) {
+                    document.getElementById('char33').style.color = 'red';
+                }
+                if (char34 != 1) {
+                    document.getElementById('char34').style.color = 'red';
+                }
+                if (char35 != 2) {
+                    document.getElementById('char35').style.color = 'red';
+                }
+                if (char41 != 1) {
+                    document.getElementById('char41').style.color = 'red';
+                }
+                if (char42 != 1) {
+                    document.getElementById('char42').style.color = 'red';
+                }
+                if (char43 != 2) {
+                    document.getElementById('char43').style.color = 'red';
+                }
+                if (char44 != 2) {
+                    document.getElementById('char44').style.color = 'red';
+                }
+                if (char45 != 1) {
+                    document.getElementById('char45').style.color = 'red';
+                }
+                document.getElementById('textvalue').value = '空平平仄仄，\n空仄仄平平。\n空仄平平仄，\n平平仄仄平。';
+            } else if (choose == 2) {//仄起首句押韵
+                // if (char11 != 1) {
+                //     document.getElementById('char11').style.color = 'red';
+                // }
+                if (char12 != 2) {
+                    document.getElementById('char12').style.color = 'red';
+                }
+                if (char13 != 2) {
+                    document.getElementById('char13').style.color = 'red';
+                }
+                if (char14 != 1) {
+                    document.getElementById('char14').style.color = 'red';
+                }
+                if (char15 != 1) {
+                    document.getElementById('char15').style.color = 'red';
+                }
+                if (char21 != 1) {
+                    document.getElementById('char21').style.color = 'red';
+                }
+                if (char22 != 1) {
+                    document.getElementById('char22').style.color = 'red';
+                }
+                if (char23 != 2) {
+                    document.getElementById('char23').style.color = 'red';
+                }
+                if (char24 != 2) {
+                    document.getElementById('char24').style.color = 'red';
+                }
+                if (char25 != 1) {
+                    document.getElementById('char25').style.color = 'red';
+                }
+                // if (char31 != 1) {
+                //     document.getElementById('char31').style.color = 'red';
+                // }
+                if (char32 != 1) {
+                    document.getElementById('char32').style.color = 'red';
+                }
+                if (char33 != 1) {
+                    document.getElementById('char33').style.color = 'red';
+                }
+                if (char34 != 2) {
+                    document.getElementById('char34').style.color = 'red';
+                }
+                if (char35 != 2) {
+                    document.getElementById('char35').style.color = 'red';
+                }
+                // if (char41 != 1) {
+                //     document.getElementById('char41').style.color = 'red';
+                // }
+                if (char42 != 2) {
+                    document.getElementById('char42').style.color = 'red';
+                }
+                if (char43 != 2) {
+                    document.getElementById('char43').style.color = 'red';
+                }
+                if (char44 != 1) {
+                    document.getElementById('char44').style.color = 'red';
+                }
+                if (char45 != 1) {
+                    document.getElementById('char45').style.color = 'red';
+                }
+                document.getElementById('textvalue').value = '空仄仄平平，\n平平仄仄平。\n空平平仄仄，\n空仄仄平平。';
+            } else if (choose == 3) {//仄起
+                // if (char11 != 1) {
+                //     document.getElementById('char11').style.color = 'red';
+                // }
+                if (char12 != 2) {
+                    document.getElementById('char12').style.color = 'red';
+                }
+                if (char13 != 1) {
+                    document.getElementById('char13').style.color = 'red';
+                }
+                if (char14 != 1) {
+                    document.getElementById('char14').style.color = 'red';
+                }
+                if (char15 != 2) {
+                    document.getElementById('char15').style.color = 'red';
+                }
+                if (char21 != 1) {
+                    document.getElementById('char21').style.color = 'red';
+                }
+                if (char22 != 1) {
+                    document.getElementById('char22').style.color = 'red';
+                }
+                if (char23 != 2) {
+                    document.getElementById('char23').style.color = 'red';
+                }
+                if (char24 != 2) {
+                    document.getElementById('char24').style.color = 'red';
+                }
+                if (char25 != 1) {
+                    document.getElementById('char25').style.color = 'red';
+                }
+                // if (char31 != 1) {
+                //     document.getElementById('char31').style.color = 'red';
+                // }
+                if (char32 != 1) {
+                    document.getElementById('char32').style.color = 'red';
+                }
+                if (char33 != 1) {
+                    document.getElementById('char33').style.color = 'red';
+                }
+                if (char34 != 2) {
+                    document.getElementById('char34').style.color = 'red';
+                }
+                if (char35 != 2) {
+                    document.getElementById('char35').style.color = 'red';
+                }
+                // if (char41 != 1) {
+                //     document.getElementById('char41').style.color = 'red';
+                // }
+                if (char42 != 2) {
+                    document.getElementById('char42').style.color = 'red';
+                }
+                if (char43 != 2) {
+                    document.getElementById('char43').style.color = 'red';
+                }
+                if (char44 != 1) {
+                    document.getElementById('char44').style.color = 'red';
+                }
+                if (char45 != 1) {
+                    document.getElementById('char45').style.color = 'red';
+                }
+                document.getElementById('textvalue').value = '空仄平平仄，\n平平仄仄平。\n空平平仄仄，\n空仄仄平平。';
+            }
+
+        }
+    </script>
+    <!--七绝-->
+    <script>
+        function checkqj() {
+            //获取选择的格律
+            var temp = document.getElementsByName('sexqj');
+            var choose = 0;
+            for (i = 0; i < temp.length; i++) {
+                if (temp[i].checked) {
+                    //  window.alert(temp[i].value);
+                    choose = temp[i].value;
+                    //window.alert(choose);
+                }
+            }
+            //获取用户填入
+            var charq11 = document.getElementById('charq11').value;
+            var charq12 = document.getElementById('charq12').value;
+            var charq13 = document.getElementById('charq13').value;
+            var charq14 = document.getElementById('charq14').value;
+            var charq15 = document.getElementById('charq15').value;
+            var charq16 = document.getElementById('charq16').value;
+            var charq17 = document.getElementById('charq17').value;
+            var charq21 = document.getElementById('charq21').value;
+            var charq22 = document.getElementById('charq22').value;
+            var charq23 = document.getElementById('charq23').value;
+            var charq24 = document.getElementById('charq24').value;
+            var charq25 = document.getElementById('charq25').value;
+            var charq26 = document.getElementById('charq26').value;
+            var charq27 = document.getElementById('charq27').value;
+            var charq31 = document.getElementById('charq31').value;
+            var charq32 = document.getElementById('charq32').value;
+            var charq33 = document.getElementById('charq33').value;
+            var charq34 = document.getElementById('charq34').value;
+            var charq35 = document.getElementById('charq35').value;
+            var charq36 = document.getElementById('charq36').value;
+            var charq37 = document.getElementById('charq37').value;
+            var charq41 = document.getElementById('charq41').value;
+            var charq42 = document.getElementById('charq42').value;
+            var charq43 = document.getElementById('charq43').value;
+            var charq44 = document.getElementById('charq44').value;
+            var charq45 = document.getElementById('charq45').value;
+            var charq46 = document.getElementById('charq46').value;
+            var charq47 = document.getElementById('charq47').value;
+            //分别处理
+            if (choose == 0) {//平起首句押韵
+                // if (charq11 != 1) {
+                //     document.getElementById('charq11').style.color = 'red';
+                // }
+                if (charq12 != 1) {
+                    document.getElementById('charq12').style.color = 'red';
+                }
+                // if (charq13 != 2) {
+                //     document.getElementById('charq13').style.color = 'red';
+                // }
+                if (charq14 != 2) {
+                    document.getElementById('charq14').style.color = 'red';
+                }
+                if (charq15 != 2) {
+                    document.getElementById('charq15').style.color = 'red';
+                }
+                if (charq16 != 1) {
+                    document.getElementById('charq16').style.color = 'red';
+                }
+                if (charq17 != 1) {
+                    document.getElementById('charq17').style.color = 'red';
+                }
+                // if (charq21 != 1) {
+                //     document.getElementById('charq21').style.color = 'red';
+                // }
+                if (charq22 != 2) {
+                    document.getElementById('charq22').style.color = 'red';
+                }
+                if (charq23 != 1) {
+                    document.getElementById('charq23').style.color = 'red';
+                }
+                if (charq24 != 1) {
+                    document.getElementById('charq24').style.color = 'red';
+                }
+                if (charq25 != 2) {
+                    document.getElementById('charq25').style.color = 'red';
+                }
+                if (charq26 != 2) {
+                    document.getElementById('charq26').style.color = 'red';
+                }
+                if (charq27 != 1) {
+                    document.getElementById('charq27').style.color = 'red';
+                }
+                // if (charq31 != 1) {
+                //     document.getElementById('charq31').style.color = 'red';
+                // }
+                if (charq32 != 2) {
+                    document.getElementById('charq32').style.color = 'red';
+                }
+                // if (charq33 != 1) {
+                //     document.getElementById('charq33').style.color = 'red';
+                // }
+                if (charq34 != 1) {
+                    document.getElementById('charq34').style.color = 'red';
+                }
+                if (charq35 != 1) {
+                    document.getElementById('charq35').style.color = 'red';
+                }
+                if (charq36 != 2) {
+                    document.getElementById('charq36').style.color = 'red';
+                }
+                if (charq37 != 2) {
+                    document.getElementById('charq37').style.color = 'red';
+                }
+                // if (charq41 != 1) {
+                //     document.getElementById('charq41').style.color = 'red';
+                // }
+                if (charq42 != 1) {
+                    document.getElementById('charq42').style.color = 'red';
+                }
+                // if (charq43 != 2) {
+                //     document.getElementById('charq43').style.color = 'red';
+                // }
+                if (charq44 != 2) {
+                    document.getElementById('charq44').style.color = 'red';
+                }
+                if (charq45 != 2) {
+                    document.getElementById('charq45').style.color = 'red';
+                }
+                if (charq46 != 1) {
+                    document.getElementById('charq46').style.color = 'red';
+                }
+                if (charq47 != 1) {
+                    document.getElementById('charq47').style.color = 'red';
+                }
+                document.getElementById('textvalueqj').value = '空平空仄仄平平，\n空仄平平仄仄平。\n空仄空平平仄仄，\n空平空仄仄平平。';
+            } else if (choose == 1) {//平起
+                // if (charq11 != 1) {
+                //     document.getElementById('charq11').style.color = 'red';
+                // }
+                if (charq12 != 1) {
+                    document.getElementById('charq12').style.color = 'red';
+                }
+                // if (charq13 != 2) {
+                //     document.getElementById('charq13').style.color = 'red';
+                // }
+                if (charq14 != 2) {
+                    document.getElementById('charq14').style.color = 'red';
+                }
+                if (charq15 != 1) {
+                    document.getElementById('charq15').style.color = 'red';
+                }
+                if (charq16 != 1) {
+                    document.getElementById('charq16').style.color = 'red';
+                }
+                if (charq17 != 2) {
+                    document.getElementById('charq17').style.color = 'red';
+                }
+                // if (charq21 != 1) {
+                //     document.getElementById('charq21').style.color = 'red';
+                // }
+                if (charq22 != 2) {
+                    document.getElementById('charq22').style.color = 'red';
+                }
+                if (charq23 != 1) {
+                    document.getElementById('charq23').style.color = 'red';
+                }
+                if (charq24 != 1) {
+                    document.getElementById('charq24').style.color = 'red';
+                }
+                if (charq25 != 2) {
+                    document.getElementById('charq25').style.color = 'red';
+                }
+                if (charq26 != 2) {
+                    document.getElementById('charq26').style.color = 'red';
+                }
+                if (charq27 != 1) {
+                    document.getElementById('charq27').style.color = 'red';
+                }
+                // if (charq31 != 1) {
+                //     document.getElementById('charq31').style.color = 'red';
+                // }
+                if (charq32 != 2) {
+                    document.getElementById('charq32').style.color = 'red';
+                }
+                // if (charq33 != 1) {
+                //     document.getElementById('charq33').style.color = 'red';
+                // }
+                if (charq34 != 1) {
+                    document.getElementById('charq34').style.color = 'red';
+                }
+                if (charq35 != 1) {
+                    document.getElementById('charq35').style.color = 'red';
+                }
+                if (charq36 != 2) {
+                    document.getElementById('charq36').style.color = 'red';
+                }
+                if (charq37 != 2) {
+                    document.getElementById('charq37').style.color = 'red';
+                }
+                // if (charq41 != 1) {
+                //     document.getElementById('charq41').style.color = 'red';
+                // }
+                if (charq42 != 1) {
+                    document.getElementById('charq42').style.color = 'red';
+                }
+                // if (charq43 != 2) {
+                //     document.getElementById('charq43').style.color = 'red';
+                // }
+                if (charq44 != 2) {
+                    document.getElementById('charq44').style.color = 'red';
+                }
+                if (charq45 != 2) {
+                    document.getElementById('charq45').style.color = 'red';
+                }
+                if (charq46 != 1) {
+                    document.getElementById('charq46').style.color = 'red';
+                }
+                if (charq47 != 1) {
+                    document.getElementById('charq47').style.color = 'red';
+                }
+                document.getElementById('textvalueqj').value = '空平空仄平平仄，\n空仄平平仄仄平。\n空仄空平平仄仄，\n空平空仄仄平平。';
+            } else if (choose == 2) {//仄起首句押韵
+                // if (charq11 != 1) {
+                //     document.getElementById('charq11').style.color = 'red';
+                // }
+                if (charq12 != 2) {
+                    document.getElementById('charq12').style.color = 'red';
+                }
+                if (charq13 != 1) {
+                    document.getElementById('charq13').style.color = 'red';
+                }
+                if (charq14 != 1) {
+                    document.getElementById('charq14').style.color = 'red';
+                }
+                if (charq15 != 2) {
+                    document.getElementById('charq15').style.color = 'red';
+                }
+                if (charq16 != 2) {
+                    document.getElementById('charq16').style.color = 'red';
+                }
+                if (charq17 != 1) {
+                    document.getElementById('charq17').style.color = 'red';
+                }
+                // if (charq21 != 1) {
+                //     document.getElementById('charq21').style.color = 'red';
+                // }
+                if (charq22 != 1) {
+                    document.getElementById('charq22').style.color = 'red';
+                }
+                // if (charq23 != 2) {
+                //     document.getElementById('charq23').style.color = 'red';
+                // }
+                if (charq24 != 2) {
+                    document.getElementById('charq24').style.color = 'red';
+                }
+                if (charq25 != 2) {
+                    document.getElementById('charq25').style.color = 'red';
+                }
+                if (charq26 != 1) {
+                    document.getElementById('charq26').style.color = 'red';
+                }
+                if (charq27 != 1) {
+                    document.getElementById('charq27').style.color = 'red';
+                }
+                // if (charq31 != 1) {
+                //     document.getElementById('charq31').style.color = 'red';
+                // }
+                if (charq32 != 1) {
+                    document.getElementById('charq32').style.color = 'red';
+                }
+                // if (charq33 != 1) {
+                //     document.getElementById('charq33').style.color = 'red';
+                // }
+                if (charq34 != 2) {
+                    document.getElementById('charq34').style.color = 'red';
+                }
+                if (charq35 != 1) {
+                    document.getElementById('charq35').style.color = 'red';
+                }
+                if (charq36 != 1) {
+                    document.getElementById('charq36').style.color = 'red';
+                }
+                if (charq37 != 2) {
+                    document.getElementById('charq37').style.color = 'red';
+                }
+                // if (charq41 != 1) {
+                //     document.getElementById('charq41').style.color = 'red';
+                // }
+                if (charq42 != 2) {
+                    document.getElementById('charq42').style.color = 'red';
+                }
+                if (charq43 != 1) {
+                    document.getElementById('charq43').style.color = 'red';
+                }
+                if (charq44 != 1) {
+                    document.getElementById('charq44').style.color = 'red';
+                }
+                if (charq45 != 2) {
+                    document.getElementById('charq45').style.color = 'red';
+                }
+                if (charq46 != 2) {
+                    document.getElementById('charq46').style.color = 'red';
+                }
+                if (charq47 != 1) {
+                    document.getElementById('charq47').style.color = 'red';
+                }
+                document.getElementById('textvalueqj').value = '空仄平平仄仄平，\n空平空仄仄平平。\n空平空仄平平仄，\n空仄平平仄仄平。';
+            } else if (choose == 3) {//仄起
+                // if (charq11 != 1) {
+                //     document.getElementById('charq11').style.color = 'red';
+                // }
+                if (charq12 != 2) {
+                    document.getElementById('charq12').style.color = 'red';
+                }
+                // if (charq13 != 2) {
+                //     document.getElementById('charq13').style.color = 'red';
+                // }
+                if (charq14 != 1) {
+                    document.getElementById('charq14').style.color = 'red';
+                }
+                if (charq15 != 1) {
+                    document.getElementById('charq15').style.color = 'red';
+                }
+                if (charq16 != 2) {
+                    document.getElementById('charq16').style.color = 'red';
+                }
+                if (charq17 != 2) {
+                    document.getElementById('charq17').style.color = 'red';
+                }
+                // if (charq21 != 1) {
+                //     document.getElementById('charq21').style.color = 'red';
+                // }
+                if (charq22 != 1) {
+                    document.getElementById('charq22').style.color = 'red';
+                }
+                // if (charq23 != 2) {
+                //     document.getElementById('charq23').style.color = 'red';
+                // }
+                if (charq24 != 2) {
+                    document.getElementById('charq24').style.color = 'red';
+                }
+                if (charq25 != 2) {
+                    document.getElementById('charq25').style.color = 'red';
+                }
+                if (charq26 != 1) {
+                    document.getElementById('charq26').style.color = 'red';
+                }
+                if (charq27 != 1) {
+                    document.getElementById('charq27').style.color = 'red';
+                }
+                // if (charq31 != 1) {
+                //     document.getElementById('charq31').style.color = 'red';
+                // }
+                if (charq32 != 1) {
+                    document.getElementById('charq32').style.color = 'red';
+                }
+                // if (charq33 != 1) {
+                //     document.getElementById('charq33').style.color = 'red';
+                // }
+                if (charq34 != 2) {
+                    document.getElementById('charq34').style.color = 'red';
+                }
+                if (charq35 != 1) {
+                    document.getElementById('charq35').style.color = 'red';
+                }
+                if (charq36 != 1) {
+                    document.getElementById('charq36').style.color = 'red';
+                }
+                if (charq37 != 2) {
+                    document.getElementById('charq37').style.color = 'red';
+                }
+                // if (charq41 != 1) {
+                //     document.getElementById('charq41').style.color = 'red';
+                // }
+                if (charq42 != 2) {
+                    document.getElementById('charq42').style.color = 'red';
+                }
+                if (charq43 != 1) {
+                    document.getElementById('charq43').style.color = 'red';
+                }
+                if (charq44 != 1) {
+                    document.getElementById('charq44').style.color = 'red';
+                }
+                if (charq45 != 2) {
+                    document.getElementById('charq45').style.color = 'red';
+                }
+                if (charq46 != 2) {
+                    document.getElementById('charq46').style.color = 'red';
+                }
+                if (charq47 != 1) {
+                    document.getElementById('charq47').style.color = 'red';
+                }
+                document.getElementById('textvalueqj').value = '空仄空平平仄仄，\n空平空仄仄平平。\n空平空仄平平仄，\n空仄平平仄仄平。';
+            }
+
+        }
+    </script>
+    <!--五律-->
+    <script>
+        function checkwl() {
+            //获取选择的格律
+            var temp = document.getElementsByName('sexwl');
+            var choose = 0;
+            for (i = 0; i < temp.length; i++) {
+                if (temp[i].checked) {
+                    //  window.alert(temp[i].value);
+                    choose = temp[i].value;
+                    //window.alert(choose);
+                }
+            }
+            //获取用户填入
+            var charw11 = document.getElementById('charw11').value;
+            var charw12 = document.getElementById('charw12').value;
+            var charw13 = document.getElementById('charw13').value;
+            var charw14 = document.getElementById('charw14').value;
+            var charw15 = document.getElementById('charw15').value;
+            var charw21 = document.getElementById('charw21').value;
+            var charw22 = document.getElementById('charw22').value;
+            var charw23 = document.getElementById('charw23').value;
+            var charw24 = document.getElementById('charw24').value;
+            var charw25 = document.getElementById('charw25').value;
+            var charw31 = document.getElementById('charw31').value;
+            var charw32 = document.getElementById('charw32').value;
+            var charw33 = document.getElementById('charw33').value;
+            var charw34 = document.getElementById('charw34').value;
+            var charw35 = document.getElementById('charw35').value;
+            var charw41 = document.getElementById('charw41').value;
+            var charw42 = document.getElementById('charw42').value;
+            var charw43 = document.getElementById('charw43').value;
+            var charw44 = document.getElementById('charw44').value;
+            var charw45 = document.getElementById('charw45').value;
+            var charw51 = document.getElementById('charw51').value;
+            var charw52 = document.getElementById('charw52').value;
+            var charw53 = document.getElementById('charw53').value;
+            var charw54 = document.getElementById('charw54').value;
+            var charw55 = document.getElementById('charw55').value;
+            var charw61 = document.getElementById('charw61').value;
+            var charw62 = document.getElementById('charw62').value;
+            var charw63 = document.getElementById('charw63').value;
+            var charw64 = document.getElementById('charw64').value;
+            var charw65 = document.getElementById('charw65').value;
+            var charw71 = document.getElementById('charw71').value;
+            var charw72 = document.getElementById('charw72').value;
+            var charw73 = document.getElementById('charw73').value;
+            var charw74 = document.getElementById('charw74').value;
+            var charw75 = document.getElementById('charw75').value;
+            var charw81 = document.getElementById('charw81').value;
+            var charw82 = document.getElementById('charw82').value;
+            var charw83 = document.getElementById('charw83').value;
+            var charw84 = document.getElementById('charw84').value;
+            var charw85 = document.getElementById('charw85').value;
+            //分别处理
+            if (choose == 0) {//平起首句押韵
+                if (charw11 != 1) {
+                    document.getElementById('charw11').style.color = 'red';
+                }
+                if (charw12 != 1) {
+                    document.getElementById('charw12').style.color = 'red';
+                }
+                if (charw13 != 2) {
+                    document.getElementById('charw13').style.color = 'red';
+                }
+                if (charw14 != 2) {
+                    document.getElementById('charw14').style.color = 'red';
+                }
+                if (charw15 != 1) {
+                    document.getElementById('charw15').style.color = 'red';
+                }
+                // if (charw21 != 1) {
+                //     document.getElementById('charw21').style.color = 'red';
+                // }
+                if (charw22 != 2) {
+                    document.getElementById('charw22').style.color = 'red';
+                }
+                if (charw23 != 2) {
+                    document.getElementById('charw23').style.color = 'red';
+                }
+                if (charw24 != 1) {
+                    document.getElementById('charw24').style.color = 'red';
+                }
+                if (charw25 != 1) {
+                    document.getElementById('charw25').style.color = 'red';
+                }
+                // if (charw31 != 1) {
+                //     document.getElementById('charw31').style.color = 'red';
+                // }
+                if (charw32 != 2) {
+                    document.getElementById('charw32').style.color = 'red';
+                }
+                if (charw33 != 1) {
+                    document.getElementById('charw33').style.color = 'red';
+                }
+                if (charw34 != 1) {
+                    document.getElementById('charw34').style.color = 'red';
+                }
+                if (charw35 != 2) {
+                    document.getElementById('charw35').style.color = 'red';
+                }
+                if (charw41 != 1) {
+                    document.getElementById('charw41').style.color = 'red';
+                }
+                if (charw42 != 1) {
+                    document.getElementById('charw42').style.color = 'red';
+                }
+                if (charw43 != 2) {
+                    document.getElementById('charw43').style.color = 'red';
+                }
+                if (charw44 != 2) {
+                    document.getElementById('charw44').style.color = 'red';
+                }
+                if (charw45 != 1) {
+                    document.getElementById('charw45').style.color = 'red';
+                }
+                // if (charw51 != 1) {
+                //     document.getElementById('charw51').style.color = 'red';
+                // }
+                if (charw52 != 1) {
+                    document.getElementById('charw52').style.color = 'red';
+                }
+                if (charw53 != 1) {
+                    document.getElementById('charw53').style.color = 'red';
+                }
+                if (charw54 != 2) {
+                    document.getElementById('charw54').style.color = 'red';
+                }
+                if (charw55 != 2) {
+                    document.getElementById('charw55').style.color = 'red';
+                }
+                // if (charw61 != 1) {
+                //     document.getElementById('charw61').style.color = 'red';
+                // }
+                if (charw62 != 2) {
+                    document.getElementById('charw62').style.color = 'red';
+                }
+                if (charw63 != 2) {
+                    document.getElementById('charw63').style.color = 'red';
+                }
+                if (charw64 != 1) {
+                    document.getElementById('charw64').style.color = 'red';
+                }
+                if (charw65 != 1) {
+                    document.getElementById('charw65').style.color = 'red';
+                }
+                // if (charw71 != 1) {
+                //     document.getElementById('charw71').style.color = 'red';
+                // }
+                if (charw72 != 2) {
+                    document.getElementById('charw72').style.color = 'red';
+                }
+                if (charw73 != 1) {
+                    document.getElementById('charw73').style.color = 'red';
+                }
+                if (charw74 != 1) {
+                    document.getElementById('charw74').style.color = 'red';
+                }
+                if (charw75 != 2) {
+                    document.getElementById('charw75').style.color = 'red';
+                }
+                if (charw81 != 1) {
+                    document.getElementById('charw81').style.color = 'red';
+                }
+                if (charw82 != 1) {
+                    document.getElementById('charw82').style.color = 'red';
+                }
+                if (charw83 != 2) {
+                    document.getElementById('charw83').style.color = 'red';
+                }
+                if (charw84 != 2) {
+                    document.getElementById('charw84').style.color = 'red';
+                }
+                if (charw85 != 1) {
+                    document.getElementById('charw85').style.color = 'red';
+                }
+                document.getElementById('textvaluewl').value = '平平仄仄平，\n空仄仄平平。\n空仄平平仄，\n平平仄仄平。\n空平平仄仄，\n空仄仄平平。\n空仄平平仄，\n平平仄仄平。';
+            } else if (choose == 1) {//平起
+                // if (charw11 != 1) {
+                //     document.getElementById('charw11').style.color = 'red';
+                // }
+                if (charw12 != 1) {
+                    document.getElementById('charw12').style.color = 'red';
+                }
+                if (charw13 != 1) {
+                    document.getElementById('charw13').style.color = 'red';
+                }
+                if (charw14 != 2) {
+                    document.getElementById('charw14').style.color = 'red';
+                }
+                if (charw15 != 2) {
+                    document.getElementById('charw15').style.color = 'red';
+                }
+                // if (charw21 != 1) {
+                //     document.getElementById('charw21').style.color = 'red';
+                // }
+                if (charw22 != 2) {
+                    document.getElementById('charw22').style.color = 'red';
+                }
+                if (charw23 != 2) {
+                    document.getElementById('charw23').style.color = 'red';
+                }
+                if (charw24 != 1) {
+                    document.getElementById('charw24').style.color = 'red';
+                }
+                if (charw25 != 1) {
+                    document.getElementById('charw25').style.color = 'red';
+                }
+                // if (charw31 != 1) {
+                //     document.getElementById('charw31').style.color = 'red';
+                // }
+                if (charw32 != 2) {
+                    document.getElementById('charw32').style.color = 'red';
+                }
+                if (charw33 != 1) {
+                    document.getElementById('charw33').style.color = 'red';
+                }
+                if (charw34 != 1) {
+                    document.getElementById('charw34').style.color = 'red';
+                }
+                if (charw35 != 2) {
+                    document.getElementById('charw35').style.color = 'red';
+                }
+                if (charw41 != 1) {
+                    document.getElementById('charw41').style.color = 'red';
+                }
+                if (charw42 != 1) {
+                    document.getElementById('charw42').style.color = 'red';
+                }
+                if (charw43 != 2) {
+                    document.getElementById('charw43').style.color = 'red';
+                }
+                if (charw44 != 2) {
+                    document.getElementById('charw44').style.color = 'red';
+                }
+                if (charw45 != 1) {
+                    document.getElementById('charw45').style.color = 'red';
+                }
+                // if (charw51 != 1) {
+                //     document.getElementById('charw51').style.color = 'red';
+                // }
+                if (charw52 != 1) {
+                    document.getElementById('charw52').style.color = 'red';
+                }
+                if (charw53 != 1) {
+                    document.getElementById('charw53').style.color = 'red';
+                }
+                if (charw54 != 2) {
+                    document.getElementById('charw54').style.color = 'red';
+                }
+                if (charw55 != 2) {
+                    document.getElementById('charw55').style.color = 'red';
+                }
+                // if (charw61 != 1) {
+                //     document.getElementById('charw61').style.color = 'red';
+                // }
+                if (charw62 != 2) {
+                    document.getElementById('charw62').style.color = 'red';
+                }
+                if (charw63 != 2) {
+                    document.getElementById('charw63').style.color = 'red';
+                }
+                if (charw64 != 1) {
+                    document.getElementById('charw64').style.color = 'red';
+                }
+                if (charw65 != 1) {
+                    document.getElementById('charw65').style.color = 'red';
+                }
+                // if (charw71 != 1) {
+                //     document.getElementById('charw71').style.color = 'red';
+                // }
+                if (charw72 != 2) {
+                    document.getElementById('charw72').style.color = 'red';
+                }
+                if (charw73 != 1) {
+                    document.getElementById('charw73').style.color = 'red';
+                }
+                if (charw74 != 1) {
+                    document.getElementById('charw74').style.color = 'red';
+                }
+                if (charw75 != 2) {
+                    document.getElementById('charw75').style.color = 'red';
+                }
+                if (charw81 != 1) {
+                    document.getElementById('charw81').style.color = 'red';
+                }
+                if (charw82 != 1) {
+                    document.getElementById('charw82').style.color = 'red';
+                }
+                if (charw83 != 2) {
+                    document.getElementById('charw83').style.color = 'red';
+                }
+                if (charw84 != 2) {
+                    document.getElementById('charw84').style.color = 'red';
+                }
+                if (charw85 != 1) {
+                    document.getElementById('charw85').style.color = 'red';
+                }
+                document.getElementById('textvaluewl').value = '空平平仄仄，\n空仄仄平平。\n空仄平平仄，\n平平仄仄平。\n空平平仄仄，\n空仄仄平平。\n空仄平平仄，\n平平仄仄平。';
+            } else if (choose == 2) {//仄起首句押韵
+                // if (charw11 != 1) {
+                //     document.getElementById('charw11').style.color = 'red';
+                // }
+                if (charw12 != 2) {
+                    document.getElementById('charw12').style.color = 'red';
+                }
+                if (charw13 != 2) {
+                    document.getElementById('charw13').style.color = 'red';
+                }
+                if (charw14 != 1) {
+                    document.getElementById('charw14').style.color = 'red';
+                }
+                if (charw15 != 1) {
+                    document.getElementById('charw15').style.color = 'red';
+                }
+                if (charw21 != 1) {
+                    document.getElementById('charw21').style.color = 'red';
+                }
+                if (charw22 != 1) {
+                    document.getElementById('charw22').style.color = 'red';
+                }
+                if (charw23 != 2) {
+                    document.getElementById('charw23').style.color = 'red';
+                }
+                if (charw24 != 2) {
+                    document.getElementById('charw24').style.color = 'red';
+                }
+                if (charw25 != 1) {
+                    document.getElementById('charw25').style.color = 'red';
+                }
+                // if (charw31 != 1) {
+                //     document.getElementById('charw31').style.color = 'red';
+                // }
+                if (charw32 != 1) {
+                    document.getElementById('charw32').style.color = 'red';
+                }
+                if (charw33 != 1) {
+                    document.getElementById('charw33').style.color = 'red';
+                }
+                if (charw34 != 2) {
+                    document.getElementById('charw34').style.color = 'red';
+                }
+                if (charw35 != 2) {
+                    document.getElementById('charw35').style.color = 'red';
+                }
+                // if (charw41 != 1) {
+                //     document.getElementById('charw41').style.color = 'red';
+                // }
+                if (charw42 != 2) {
+                    document.getElementById('charw42').style.color = 'red';
+                }
+                if (charw43 != 2) {
+                    document.getElementById('charw43').style.color = 'red';
+                }
+                if (charw44 != 1) {
+                    document.getElementById('charw44').style.color = 'red';
+                }
+                if (charw45 != 1) {
+                    document.getElementById('charw45').style.color = 'red';
+                }
+                // if (charw51 != 1) {
+                //     document.getElementById('charw51').style.color = 'red';
+                // }
+                if (charw52 != 2) {
+                    document.getElementById('charw52').style.color = 'red';
+                }
+                if (charw53 != 1) {
+                    document.getElementById('charw53').style.color = 'red';
+                }
+                if (charw54 != 1) {
+                    document.getElementById('charw54').style.color = 'red';
+                }
+                if (charw55 != 2) {
+                    document.getElementById('charw55').style.color = 'red';
+                }
+                if (charw61 != 1) {
+                    document.getElementById('charw61').style.color = 'red';
+                }
+                if (charw62 != 1) {
+                    document.getElementById('charw62').style.color = 'red';
+                }
+                if (charw63 != 2) {
+                    document.getElementById('charw63').style.color = 'red';
+                }
+                if (charw64 != 2) {
+                    document.getElementById('charw64').style.color = 'red';
+                }
+                if (charw65 != 1) {
+                    document.getElementById('charw65').style.color = 'red';
+                }
+                // if (charw71 != 1) {
+                //     document.getElementById('charw71').style.color = 'red';
+                // }
+                if (charw72 != 1) {
+                    document.getElementById('charw72').style.color = 'red';
+                }
+                if (charw73 != 1) {
+                    document.getElementById('charw73').style.color = 'red';
+                }
+                if (charw74 != 2) {
+                    document.getElementById('charw74').style.color = 'red';
+                }
+                if (charw75 != 2) {
+                    document.getElementById('charw75').style.color = 'red';
+                }
+                // if (charw81 != 1) {
+                //     document.getElementById('charw81').style.color = 'red';
+                // }
+                if (charw82 != 2) {
+                    document.getElementById('charw82').style.color = 'red';
+                }
+                if (charw83 != 2) {
+                    document.getElementById('charw83').style.color = 'red';
+                }
+                if (charw84 != 1) {
+                    document.getElementById('charw84').style.color = 'red';
+                }
+                if (charw85 != 1) {
+                    document.getElementById('charw85').style.color = 'red';
+                }
+                document.getElementById('textvaluewl').value = '空仄仄平平，\n平平仄仄平。\n空平平仄仄，\n空仄仄平平。\n空仄平平仄，\n平平仄仄平。\n空平平仄仄，\n空仄仄平平。';
+            } else if (choose == 3) {//仄起
+                // if (charw11 != 1) {
+                //     document.getElementById('charw11').style.color = 'red';
+                // }
+                if (charw12 != 2) {
+                    document.getElementById('charw12').style.color = 'red';
+                }
+                if (charw13 != 1) {
+                    document.getElementById('charw13').style.color = 'red';
+                }
+                if (charw14 != 1) {
+                    document.getElementById('charw14').style.color = 'red';
+                }
+                if (charw15 != 2) {
+                    document.getElementById('charw15').style.color = 'red';
+                }
+                if (charw21 != 1) {
+                    document.getElementById('charw21').style.color = 'red';
+                }
+                if (charw22 != 1) {
+                    document.getElementById('charw22').style.color = 'red';
+                }
+                if (charw23 != 2) {
+                    document.getElementById('charw23').style.color = 'red';
+                }
+                if (charw24 != 2) {
+                    document.getElementById('charw24').style.color = 'red';
+                }
+                if (charw25 != 1) {
+                    document.getElementById('charw25').style.color = 'red';
+                }
+                // if (charw31 != 1) {
+                //     document.getElementById('charw31').style.color = 'red';
+                // }
+                if (charw32 != 1) {
+                    document.getElementById('charw32').style.color = 'red';
+                }
+                if (charw33 != 1) {
+                    document.getElementById('charw33').style.color = 'red';
+                }
+                if (charw34 != 2) {
+                    document.getElementById('charw34').style.color = 'red';
+                }
+                if (charw35 != 2) {
+                    document.getElementById('charw35').style.color = 'red';
+                }
+                // if (charw41 != 1) {
+                //     document.getElementById('charw41').style.color = 'red';
+                // }
+                if (charw42 != 2) {
+                    document.getElementById('charw42').style.color = 'red';
+                }
+                if (charw43 != 2) {
+                    document.getElementById('charw43').style.color = 'red';
+                }
+                if (charw44 != 1) {
+                    document.getElementById('charw44').style.color = 'red';
+                }
+                if (charw45 != 1) {
+                    document.getElementById('charw45').style.color = 'red';
+                }
+                // if (charw51 != 1) {
+                //     document.getElementById('charw51').style.color = 'red';
+                // }
+                if (charw52 != 2) {
+                    document.getElementById('charw52').style.color = 'red';
+                }
+                if (charw53 != 1) {
+                    document.getElementById('charw53').style.color = 'red';
+                }
+                if (charw54 != 1) {
+                    document.getElementById('charw54').style.color = 'red';
+                }
+                if (charw55 != 2) {
+                    document.getElementById('charw55').style.color = 'red';
+                }
+                if (charw61 != 1) {
+                    document.getElementById('charw61').style.color = 'red';
+                }
+                if (charw62 != 1) {
+                    document.getElementById('charw62').style.color = 'red';
+                }
+                if (charw63 != 2) {
+                    document.getElementById('charw63').style.color = 'red';
+                }
+                if (charw64 != 2) {
+                    document.getElementById('charw64').style.color = 'red';
+                }
+                if (charw65 != 1) {
+                    document.getElementById('charw65').style.color = 'red';
+                }
+                // if (charw71 != 1) {
+                //     document.getElementById('charw71').style.color = 'red';
+                // }
+                if (charw72 != 1) {
+                    document.getElementById('charw72').style.color = 'red';
+                }
+                if (charw73 != 1) {
+                    document.getElementById('charw73').style.color = 'red';
+                }
+                if (charw74 != 2) {
+                    document.getElementById('charw74').style.color = 'red';
+                }
+                if (charw75 != 2) {
+                    document.getElementById('charw75').style.color = 'red';
+                }
+                // if (charw81 != 1) {
+                //     document.getElementById('charw81').style.color = 'red';
+                // }
+                if (charw82 != 2) {
+                    document.getElementById('charw82').style.color = 'red';
+                }
+                if (charw83 != 2) {
+                    document.getElementById('charw83').style.color = 'red';
+                }
+                if (charw84 != 1) {
+                    document.getElementById('charw84').style.color = 'red';
+                }
+                if (charw85 != 1) {
+                    document.getElementById('charw85').style.color = 'red';
+                }
+                document.getElementById('textvaluewl').value = '空仄平平仄，\n平平仄仄平。\n空平平仄仄，\n空仄仄平平。\n空仄平平仄，\n平平仄仄平。\n空平平仄仄，\n空仄仄平平。';
+            }
+
+        }
+    </script>
+    <!--七律-->
+    <script>
+        function checkql() {
+            //获取选择的格律
+            var temp = document.getElementsByName('sexql');
+            var choose = 0;
+            for (i = 0; i < temp.length; i++) {
+                if (temp[i].checked) {
+                    //  window.alert(temp[i].value);
+                    choose = temp[i].value;
+                    //window.alert(choose);
+                }
+            }
+            //获取用户填入
+            var charql11 = document.getElementById('charql11').value;
+            var charql12 = document.getElementById('charql12').value;
+            var charql13 = document.getElementById('charql13').value;
+            var charql14 = document.getElementById('charql14').value;
+            var charql15 = document.getElementById('charql15').value;
+            var charql16 = document.getElementById('charql16').value;
+            var charql17 = document.getElementById('charql17').value;
+            var charql21 = document.getElementById('charql21').value;
+            var charql22 = document.getElementById('charql22').value;
+            var charql23 = document.getElementById('charql23').value;
+            var charql24 = document.getElementById('charql24').value;
+            var charql25 = document.getElementById('charql25').value;
+            var charql26 = document.getElementById('charql26').value;
+            var charql27 = document.getElementById('charql27').value;
+            var charql31 = document.getElementById('charql31').value;
+            var charql32 = document.getElementById('charql32').value;
+            var charql33 = document.getElementById('charql33').value;
+            var charql34 = document.getElementById('charql34').value;
+            var charql35 = document.getElementById('charql35').value;
+            var charql36 = document.getElementById('charql36').value;
+            var charql37 = document.getElementById('charql37').value;
+            var charql41 = document.getElementById('charql41').value;
+            var charql42 = document.getElementById('charql42').value;
+            var charql43 = document.getElementById('charql43').value;
+            var charql44 = document.getElementById('charql44').value;
+            var charql45 = document.getElementById('charql45').value;
+            var charql46 = document.getElementById('charql46').value;
+            var charql47 = document.getElementById('charql47').value;
+            var charql51 = document.getElementById('charql51').value;
+            var charql52 = document.getElementById('charql52').value;
+            var charql53 = document.getElementById('charql53').value;
+            var charql54 = document.getElementById('charql54').value;
+            var charql55 = document.getElementById('charql55').value;
+            var charql56 = document.getElementById('charql56').value;
+            var charql57 = document.getElementById('charql57').value;
+            var charql61 = document.getElementById('charql61').value;
+            var charql62 = document.getElementById('charql62').value6
+            var charql63 = document.getElementById('charql63').value;
+            var charql64 = document.getElementById('charql64').value;
+            var charql65 = document.getElementById('charql65').value;
+            var charql66 = document.getElementById('charql66').value;
+            var charql67 = document.getElementById('charql67').value;
+            var charql71 = document.getElementById('charql71').value;
+            var charql72 = document.getElementById('charql72').value;
+            var charql73 = document.getElementById('charql73').value;
+            var charql74 = document.getElementById('charql74').value;
+            var charql75 = document.getElementById('charql75').value;
+            var charql76 = document.getElementById('charql76').value;
+            var charql77 = document.getElementById('charql77').value;
+            var charql81 = document.getElementById('charql81').value;
+            var charql82 = document.getElementById('charql82').value;
+            var charql83 = document.getElementById('charql83').value;
+            var charql84 = document.getElementById('charql84').value;
+            var charql85 = document.getElementById('charql85').value;
+            var charql86 = document.getElementById('charql86').value;
+            var charql87 = document.getElementById('charql87').value;
+            //分别处理
+            if (choose == 0) {//平起首句押韵
+                // if (charql11 != 1) {
+                //     document.getElementById('charql11').style.color = 'red';
+                // }
+                if (charql12 != 1) {
+                    document.getElementById('charql12').style.color = 'red';
+                }
+                // if (charql13 != 2) {
+                //     document.getElementById('charql13').style.color = 'red';
+                // }
+                if (charql14 != 2) {
+                    document.getElementById('charql14').style.color = 'red';
+                }
+                if (charql15 != 2) {
+                    document.getElementById('charql15').style.color = 'red';
+                }
+                if (charql16 != 1) {
+                    document.getElementById('charql16').style.color = 'red';
+                }
+                if (charql17 != 1) {
+                    document.getElementById('charql17').style.color = 'red';
+                }
+                // if (charql21 != 1) {
+                //     document.getElementById('charql21').style.color = 'red';
+                // }
+                if (charql22 != 2) {
+                    document.getElementById('charql22').style.color = 'red';
+                }
+                if (charql23 != 1) {
+                    document.getElementById('charql23').style.color = 'red';
+                }
+                if (charql24 != 1) {
+                    document.getElementById('charql24').style.color = 'red';
+                }
+                if (charql25 != 2) {
+                    document.getElementById('charql25').style.color = 'red';
+                }
+                if (charql26 != 2) {
+                    document.getElementById('charql26').style.color = 'red';
+                }
+                if (charql27 != 1) {
+                    document.getElementById('charql27').style.color = 'red';
+                }
+                // if (charql31 != 1) {
+                //     document.getElementById('charql31').style.color = 'red';
+                // }
+                if (charql32 != 2) {
+                    document.getElementById('charql32').style.color = 'red';
+                }
+                // if (charql33 != 1) {
+                //     document.getElementById('charql33').style.color = 'red';
+                // }
+                if (charql34 != 1) {
+                    document.getElementById('charql34').style.color = 'red';
+                }
+                if (charql35 != 1) {
+                    document.getElementById('charql35').style.color = 'red';
+                }
+                if (charql36 != 2) {
+                    document.getElementById('charql36').style.color = 'red';
+                }
+                if (charql37 != 2) {
+                    document.getElementById('charql37').style.color = 'red';
+                }
+                // if (charql41 != 1) {
+                //     document.getElementById('charql41').style.color = 'red';
+                // }
+                if (charql42 != 1) {
+                    document.getElementById('charql42').style.color = 'red';
+                }
+                // if (charql43 != 2) {
+                //     document.getElementById('charql43').style.color = 'red';
+                // }
+                if (charql44 != 2) {
+                    document.getElementById('charql44').style.color = 'red';
+                }
+                if (charql45 != 2) {
+                    document.getElementById('charql45').style.color = 'red';
+                }
+                if (charql46 != 1) {
+                    document.getElementById('charql46').style.color = 'red';
+                }
+                if (charql47 != 1) {
+                    document.getElementById('charql47').style.color = 'red';
+                }
+                // if (charql51 != 1) {
+                //     document.getElementById('charql51').style.color = 'red';
+                // }
+                if (charql52 != 1) {
+                    document.getElementById('charql52').style.color = 'red';
+                }
+                // if (charql53 != 1) {
+                //     document.getElementById('charql53').style.color = 'red';
+                // }
+                if (charql54 != 2) {
+                    document.getElementById('charql54').style.color = 'red';
+                }
+                if (charql55 != 1) {
+                    document.getElementById('charql55').style.color = 'red';
+                }
+                if (charql56 != 1) {
+                    document.getElementById('charql56').style.color = 'red';
+                }
+                if (charql57 != 2) {
+                    document.getElementById('charql57').style.color = 'red';
+                }
+                // if (charql61 != 1) {
+                //     document.getElementById('charql61').style.color = 'red';
+                // }
+                if (charql62 != 2) {
+                    document.getElementById('charql62').style.color = 'red';
+                }
+                if (charql63 != 1) {
+                    document.getElementById('charql63').style.color = 'red';
+                }
+                if (charql64 != 1) {
+                    document.getElementById('charql64').style.color = 'red';
+                }
+                if (charql65 != 2) {
+                    document.getElementById('charql65').style.color = 'red';
+                }
+                if (charql66 != 2) {
+                    document.getElementById('charql66').style.color = 'red';
+                }
+                if (charql67 != 1) {
+                    document.getElementById('charql67').style.color = 'red';
+                }
+                // if (charql71 != 1) {
+                //     document.getElementById('charql71').style.color = 'red';
+                // }
+                if (charql72 != 2) {
+                    document.getElementById('charql72').style.color = 'red';
+                }
+                // if (charql73 != 1) {
+                //     document.getElementById('charql73').style.color = 'red';
+                // }
+                if (charql74 != 1) {
+                    document.getElementById('charql74').style.color = 'red';
+                }
+                if (charql75 != 1) {
+                    document.getElementById('charql75').style.color = 'red';
+                }
+                if (charql76 != 2) {
+                    document.getElementById('charql76').style.color = 'red';
+                }
+                if (charql77 != 2) {
+                    document.getElementById('charql77').style.color = 'red';
+                }
+                // if (charql81 != 1) {
+                //     document.getElementById('charql81').style.color = 'red';
+                // }
+                if (charql82 != 1) {
+                    document.getElementById('charql82').style.color = 'red';
+                }
+                // if (charql83 != 2) {
+                //     document.getElementById('charql83').style.color = 'red';
+                // }
+                if (charql84 != 2) {
+                    document.getElementById('charql84').style.color = 'red';
+                }
+                if (charql85 != 2) {
+                    document.getElementById('charql85').style.color = 'red';
+                }
+                if (charql86 != 1) {
+                    document.getElementById('charql86').style.color = 'red';
+                }
+                if (charql87 != 1) {
+                    document.getElementById('charql87').style.color = 'red';
+                }
+                document.getElementById('textvalueql').value = '空平空仄仄平平，\n空仄平平仄仄平。\n空仄空平平仄仄，\n空平空仄仄平平。\n空平空仄平平仄，\n空仄平平仄仄平。\n空仄空平平仄仄，\n空平空仄仄平平。';
+            } else if (choose == 1) {//平起
+                // if (charql11 != 1) {
+                //     document.getElementById('charql11').style.color = 'red';
+                // }
+                if (charql12 != 1) {
+                    document.getElementById('charql12').style.color = 'red';
+                }
+                // if (charql13 != 2) {
+                //     document.getElementById('charql13').style.color = 'red';
+                // }
+                if (charql14 != 2) {
+                    document.getElementById('charql14').style.color = 'red';
+                }
+                if (charql15 != 1) {
+                    document.getElementById('charql15').style.color = 'red';
+                }
+                if (charql16 != 1) {
+                    document.getElementById('charql16').style.color = 'red';
+                }
+                if (charql17 != 2) {
+                    document.getElementById('charql17').style.color = 'red';
+                }
+                // if (charql21 != 1) {
+                //     document.getElementById('charql21').style.color = 'red';
+                // }
+                if (charql22 != 2) {
+                    document.getElementById('charql22').style.color = 'red';
+                }
+                if (charql23 != 1) {
+                    document.getElementById('charql23').style.color = 'red';
+                }
+                if (charql24 != 1) {
+                    document.getElementById('charql24').style.color = 'red';
+                }
+                if (charql25 != 2) {
+                    document.getElementById('charql25').style.color = 'red';
+                }
+                if (charql26 != 2) {
+                    document.getElementById('charql26').style.color = 'red';
+                }
+                if (charql27 != 1) {
+                    document.getElementById('charql27').style.color = 'red';
+                }
+                // if (charql31 != 1) {
+                //     document.getElementById('charql31').style.color = 'red';
+                // }
+                if (charql32 != 2) {
+                    document.getElementById('charql32').style.color = 'red';
+                }
+                // if (charql33 != 1) {
+                //     document.getElementById('charql33').style.color = 'red';
+                // }
+                if (charql34 != 1) {
+                    document.getElementById('charql34').style.color = 'red';
+                }
+                if (charql35 != 1) {
+                    document.getElementById('charql35').style.color = 'red';
+                }
+                if (charql36 != 2) {
+                    document.getElementById('charql36').style.color = 'red';
+                }
+                if (charql37 != 2) {
+                    document.getElementById('charql37').style.color = 'red';
+                }
+                // if (charql41 != 1) {
+                //     document.getElementById('charql41').style.color = 'red';
+                // }
+                if (charql42 != 1) {
+                    document.getElementById('charql42').style.color = 'red';
+                }
+                // if (charql43 != 2) {
+                //     document.getElementById('charql43').style.color = 'red';
+                // }
+                if (charql44 != 2) {
+                    document.getElementById('charql44').style.color = 'red';
+                }
+                if (charql45 != 2) {
+                    document.getElementById('charql45').style.color = 'red';
+                }
+                if (charql46 != 1) {
+                    document.getElementById('charql46').style.color = 'red';
+                }
+                if (charql47 != 1) {
+                    document.getElementById('charql47').style.color = 'red';
+                }
+                // if (charql51 != 1) {
+                //     document.getElementById('charql51').style.color = 'red';
+                // }
+                if (charql52 != 1) {
+                    document.getElementById('charql52').style.color = 'red';
+                }
+                // if (charql53 != 1) {
+                //     document.getElementById('charql53').style.color = 'red';
+                // }
+                if (charql54 != 2) {
+                    document.getElementById('charql54').style.color = 'red';
+                }
+                if (charql55 != 1) {
+                    document.getElementById('charql55').style.color = 'red';
+                }
+                if (charql56 != 1) {
+                    document.getElementById('charql56').style.color = 'red';
+                }
+                if (charql57 != 2) {
+                    document.getElementById('charql57').style.color = 'red';
+                }
+                // if (charql61 != 1) {
+                //     document.getElementById('charql61').style.color = 'red';
+                // }
+                if (charql62 != 2) {
+                    document.getElementById('charql62').style.color = 'red';
+                }
+                if (charql63 != 1) {
+                    document.getElementById('charql63').style.color = 'red';
+                }
+                if (charql64 != 1) {
+                    document.getElementById('charql64').style.color = 'red';
+                }
+                if (charql65 != 2) {
+                    document.getElementById('charql65').style.color = 'red';
+                }
+                if (charql66 != 2) {
+                    document.getElementById('charql66').style.color = 'red';
+                }
+                if (charql67 != 1) {
+                    document.getElementById('charql67').style.color = 'red';
+                }
+                // if (charql71 != 1) {
+                //     document.getElementById('charql71').style.color = 'red';
+                // }
+                if (charql72 != 2) {
+                    document.getElementById('charql72').style.color = 'red';
+                }
+                // if (charql73 != 1) {
+                //     document.getElementById('charql73').style.color = 'red';
+                // }
+                if (charql74 != 1) {
+                    document.getElementById('charql74').style.color = 'red';
+                }
+                if (charql75 != 1) {
+                    document.getElementById('charql75').style.color = 'red';
+                }
+                if (charql76 != 2) {
+                    document.getElementById('charql76').style.color = 'red';
+                }
+                if (charql77 != 2) {
+                    document.getElementById('charql77').style.color = 'red';
+                }
+                // if (charql81 != 1) {
+                //     document.getElementById('charql81').style.color = 'red';
+                // }
+                if (charql82 != 1) {
+                    document.getElementById('charql82').style.color = 'red';
+                }
+                // if (charql83 != 2) {
+                //     document.getElementById('charql83').style.color = 'red';
+                // }
+                if (charql84 != 2) {
+                    document.getElementById('charql84').style.color = 'red';
+                }
+                if (charql85 != 2) {
+                    document.getElementById('charql85').style.color = 'red';
+                }
+                if (charql86 != 1) {
+                    document.getElementById('charql86').style.color = 'red';
+                }
+                if (charql87 != 1) {
+                    document.getElementById('charql87').style.color = 'red';
+                }
+                document.getElementById('textvalueql').value = '空平空仄平平仄，\n空仄平平仄仄平。\n空仄空平平仄仄，\n空平空仄仄平平。\n空平空仄平平仄，\n空仄平平仄仄平。\n空仄空平平仄仄，\n空平空仄仄平平。';
+            } else if (choose == 2) {//仄起首句押韵
+                // if (charql11 != 1) {
+                //     document.getElementById('charql11').style.color = 'red';
+                // }
+                if (charql12 != 2) {
+                    document.getElementById('charql12').style.color = 'red';
+                }
+                if (charql13 != 1) {
+                    document.getElementById('charql13').style.color = 'red';
+                }
+                if (charql14 != 1) {
+                    document.getElementById('charql14').style.color = 'red';
+                }
+                if (charql15 != 2) {
+                    document.getElementById('charql15').style.color = 'red';
+                }
+                if (charql16 != 2) {
+                    document.getElementById('charql16').style.color = 'red';
+                }
+                if (charql17 != 1) {
+                    document.getElementById('charql17').style.color = 'red';
+                }
+                // if (charql21 != 1) {
+                //     document.getElementById('charql21').style.color = 'red';
+                // }
+                if (charql22 != 1) {
+                    document.getElementById('charql22').style.color = 'red';
+                }
+                // if (charql23 != 1) {
+                //     document.getElementById('charql23').style.color = 'red';
+                // }
+                if (charql24 != 2) {
+                    document.getElementById('charql24').style.color = 'red';
+                }
+                if (charql25 != 2) {
+                    document.getElementById('charql25').style.color = 'red';
+                }
+                if (charql26 != 1) {
+                    document.getElementById('charql26').style.color = 'red';
+                }
+                if (charql27 != 1) {
+                    document.getElementById('charql27').style.color = 'red';
+                }
+                // if (charql31 != 1) {
+                //     document.getElementById('charql31').style.color = 'red';
+                // }
+                if (charql32 != 1) {
+                    document.getElementById('charql32').style.color = 'red';
+                }
+                // if (charql33 != 1) {
+                //     document.getElementById('charql33').style.color = 'red';
+                // }
+                if (charql34 != 2) {
+                    document.getElementById('charql34').style.color = 'red';
+                }
+                if (charql35 != 1) {
+                    document.getElementById('charql35').style.color = 'red';
+                }
+                if (charql36 != 1) {
+                    document.getElementById('charql36').style.color = 'red';
+                }
+                if (charql37 != 2) {
+                    document.getElementById('charql37').style.color = 'red';
+                }
+                // if (charql41 != 1) {
+                //     document.getElementById('charql41').style.color = 'red';
+                // }
+                if (charql42 != 2) {
+                    document.getElementById('charql42').style.color = 'red';
+                }
+                if (charql43 != 1) {
+                    document.getElementById('charql43').style.color = 'red';
+                }
+                if (charql44 != 1) {
+                    document.getElementById('charql44').style.color = 'red';
+                }
+                if (charql45 != 2) {
+                    document.getElementById('charql45').style.color = 'red';
+                }
+                if (charql46 != 2) {
+                    document.getElementById('charql46').style.color = 'red';
+                }
+                if (charql47 != 1) {
+                    document.getElementById('charql47').style.color = 'red';
+                }
+                // if (charql51 != 1) {
+                //     document.getElementById('charql51').style.color = 'red';
+                // }
+                if (charql52 != 2) {
+                    document.getElementById('charql52').style.color = 'red';
+                }
+                // if (charql53 != 1) {
+                //     document.getElementById('charql53').style.color = 'red';
+                // }
+                if (charql54 != 1) {
+                    document.getElementById('charql54').style.color = 'red';
+                }
+                if (charql55 != 1) {
+                    document.getElementById('charql55').style.color = 'red';
+                }
+                if (charql56 != 2) {
+                    document.getElementById('charql56').style.color = 'red';
+                }
+                if (charql57 != 2) {
+                    document.getElementById('charql57').style.color = 'red';
+                }
+                // if (charql61 != 1) {
+                //     document.getElementById('charql61').style.color = 'red';
+                // }
+                if (charql62 != 1) {
+                    document.getElementById('charql62').style.color = 'red';
+                }
+                // if (charql63 != 1) {
+                //     document.getElementById('charql63').style.color = 'red';
+                // }
+                if (charql64 != 2) {
+                    document.getElementById('charql64').style.color = 'red';
+                }
+                if (charql65 != 2) {
+                    document.getElementById('charql65').style.color = 'red';
+                }
+                if (charql66 != 1) {
+                    document.getElementById('charql66').style.color = 'red';
+                }
+                if (charql67 != 1) {
+                    document.getElementById('charql67').style.color = 'red';
+                }
+                // if (charql71 != 1) {
+                //     document.getElementById('charql71').style.color = 'red';
+                // }
+                if (charql72 != 1) {
+                    document.getElementById('charql72').style.color = 'red';
+                }
+                // if (charql73 != 1) {
+                //     document.getElementById('charql73').style.color = 'red';
+                // }
+                if (charql74 != 2) {
+                    document.getElementById('charql74').style.color = 'red';
+                }
+                if (charql75 != 1) {
+                    document.getElementById('charql75').style.color = 'red';
+                }
+                if (charql76 != 1) {
+                    document.getElementById('charql76').style.color = 'red';
+                }
+                if (charql77 != 2) {
+                    document.getElementById('charql77').style.color = 'red';
+                }
+                // if (charql81 != 1) {
+                //     document.getElementById('charql81').style.color = 'red';
+                // }
+                if (charql82 != 2) {
+                    document.getElementById('charql82').style.color = 'red';
+                }
+                if (charql83 != 1) {
+                    document.getElementById('charql83').style.color = 'red';
+                }
+                if (charql84 != 1) {
+                    document.getElementById('charql84').style.color = 'red';
+                }
+                if (charql85 != 2) {
+                    document.getElementById('charql85').style.color = 'red';
+                }
+                if (charql86 != 2) {
+                    document.getElementById('charql86').style.color = 'red';
+                }
+                if (charql87 != 1) {
+                    document.getElementById('charql87').style.color = 'red';
+                }
+                document.getElementById('textvalueql').value = '空仄平平仄仄平，\n空平空仄仄平平。\n空平空仄平平仄，\n空仄平平仄仄平。\n空仄空平平仄仄，\n空平空仄仄平平。\n空平空仄平平仄，\n空仄平平仄仄平。';
+            } else if (choose == 3) {//仄起
+                // if (charql11 != 1) {
+                //     document.getElementById('charql11').style.color = 'red';
+                // }
+                if (charql12 != 2) {
+                    document.getElementById('charql12').style.color = 'red';
+                }
+                // if (charql13 != 1) {
+                //     document.getElementById('charql13').style.color = 'red';
+                // }
+                if (charql14 != 1) {
+                    document.getElementById('charql14').style.color = 'red';
+                }
+                if (charql15 != 1) {
+                    document.getElementById('charql15').style.color = 'red';
+                }
+                if (charql16 != 2) {
+                    document.getElementById('charql16').style.color = 'red';
+                }
+                if (charql17 != 2) {
+                    document.getElementById('charql17').style.color = 'red';
+                }
+                // if (charql21 != 1) {
+                //     document.getElementById('charql21').style.color = 'red';
+                // }
+                if (charql22 != 1) {
+                    document.getElementById('charql22').style.color = 'red';
+                }
+                // if (charql23 != 1) {
+                //     document.getElementById('charql23').style.color = 'red';
+                // }
+                if (charql24 != 2) {
+                    document.getElementById('charql24').style.color = 'red';
+                }
+                if (charql25 != 2) {
+                    document.getElementById('charql25').style.color = 'red';
+                }
+                if (charql26 != 1) {
+                    document.getElementById('charql26').style.color = 'red';
+                }
+                if (charql27 != 1) {
+                    document.getElementById('charql27').style.color = 'red';
+                }
+                // if (charql31 != 1) {
+                //     document.getElementById('charql31').style.color = 'red';
+                // }
+                if (charql32 != 1) {
+                    document.getElementById('charql32').style.color = 'red';
+                }
+                // if (charql33 != 1) {
+                //     document.getElementById('charql33').style.color = 'red';
+                // }
+                if (charql34 != 2) {
+                    document.getElementById('charql34').style.color = 'red';
+                }
+                if (charql35 != 1) {
+                    document.getElementById('charql35').style.color = 'red';
+                }
+                if (charql36 != 1) {
+                    document.getElementById('charql36').style.color = 'red';
+                }
+                if (charql37 != 2) {
+                    document.getElementById('charql37').style.color = 'red';
+                }
+                // if (charql41 != 1) {
+                //     document.getElementById('charql41').style.color = 'red';
+                // }
+                if (charql42 != 2) {
+                    document.getElementById('charql42').style.color = 'red';
+                }
+                if (charql43 != 1) {
+                    document.getElementById('charql43').style.color = 'red';
+                }
+                if (charql44 != 1) {
+                    document.getElementById('charql44').style.color = 'red';
+                }
+                if (charql45 != 2) {
+                    document.getElementById('charql45').style.color = 'red';
+                }
+                if (charql46 != 2) {
+                    document.getElementById('charql46').style.color = 'red';
+                }
+                if (charql47 != 1) {
+                    document.getElementById('charql47').style.color = 'red';
+                }
+                // if (charql51 != 1) {
+                //     document.getElementById('charql51').style.color = 'red';
+                // }
+                if (charql52 != 2) {
+                    document.getElementById('charql52').style.color = 'red';
+                }
+                // if (charql53 != 1) {
+                //     document.getElementById('charql53').style.color = 'red';
+                // }
+                if (charql54 != 1) {
+                    document.getElementById('charql54').style.color = 'red';
+                }
+                if (charql55 != 1) {
+                    document.getElementById('charql55').style.color = 'red';
+                }
+                if (charql56 != 2) {
+                    document.getElementById('charql56').style.color = 'red';
+                }
+                if (charql57 != 2) {
+                    document.getElementById('charql57').style.color = 'red';
+                }
+                // if (charql61 != 1) {
+                //     document.getElementById('charql61').style.color = 'red';
+                // }
+                if (charql62 != 1) {
+                    document.getElementById('charql62').style.color = 'red';
+                }
+                // if (charql63 != 1) {
+                //     document.getElementById('charql63').style.color = 'red';
+                // }
+                if (charql64 != 2) {
+                    document.getElementById('charql64').style.color = 'red';
+                }
+                if (charql65 != 2) {
+                    document.getElementById('charql65').style.color = 'red';
+                }
+                if (charql66 != 1) {
+                    document.getElementById('charql66').style.color = 'red';
+                }
+                if (charql67 != 1) {
+                    document.getElementById('charql67').style.color = 'red';
+                }
+                // if (charql71 != 1) {
+                //     document.getElementById('charql71').style.color = 'red';
+                // }
+                if (charql72 != 1) {
+                    document.getElementById('charql72').style.color = 'red';
+                }
+                // if (charql73 != 1) {
+                //     document.getElementById('charql73').style.color = 'red';
+                // }
+                if (charql74 != 2) {
+                    document.getElementById('charql74').style.color = 'red';
+                }
+                if (charql75 != 1) {
+                    document.getElementById('charql75').style.color = 'red';
+                }
+                if (charql76 != 1) {
+                    document.getElementById('charql76').style.color = 'red';
+                }
+                if (charql77 != 2) {
+                    document.getElementById('charql77').style.color = 'red';
+                }
+                // if (charql81 != 1) {
+                //     document.getElementById('charql81').style.color = 'red';
+                // }
+                if (charql82 != 2) {
+                    document.getElementById('charql82').style.color = 'red';
+                }
+                if (charql83 != 1) {
+                    document.getElementById('charql83').style.color = 'red';
+                }
+                if (charql84 != 1) {
+                    document.getElementById('charql84').style.color = 'red';
+                }
+                if (charql85 != 2) {
+                    document.getElementById('charql85').style.color = 'red';
+                }
+                if (charql86 != 2) {
+                    document.getElementById('charql86').style.color = 'red';
+                }
+                if (charql87 != 1) {
+                    document.getElementById('charql87').style.color = 'red';
+                }
+                document.getElementById('textvalueql').value = '空仄空平平仄仄，\n空平空仄仄平平。\n空平空仄平平仄，\n空仄平平仄仄平。\n空仄空平平仄仄，\n空平空仄仄平平。\n空平空仄平平仄，\n空仄平平仄仄平。';
+            }
+
+        }
+    </script>
+
+    <script type="text/javascript">
+        layui.use(['laydate', 'laypage', 'layer', 'table', 'carousel', 'upload', 'element'], function () {
+            var element = layui.element;
+        });
+    </script>
+
+</body>
+
+</html>
